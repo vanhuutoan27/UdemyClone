@@ -31,7 +31,7 @@ function CoursePage() {
       {/* COURSE HEADER */}
       <Header />
 
-      <div className="relative mx-auto flex max-w-[1184px] justify-between py-8">
+      <div className="relative mx-auto flex h-[2000px] max-w-[1184px] justify-between py-8">
         {/* Left column for main content */}
 
         <div
@@ -52,7 +52,7 @@ function CoursePage() {
 
         {/* Right column for the purchase card */}
         <div
-          className={`${isSticky ? "sticky top-0 -mt-8 h-full" : "absolute -top-96 mt-8 "} right-0 h-screen`}
+          className={`${isSticky ? "sticky top-0 -mt-8 h-[130vh]" : "absolute -top-96 mt-8 "} right-0`}
         >
           <Purchase isSticky={isSticky} />
         </div>
